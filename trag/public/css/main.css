@@ -1,0 +1,467 @@
+
+
+body{
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+
+}
+
+
+.icon{
+    display: none;
+}
+
+
+ 
+@media only screen and (max-width: 900px) {
+    .side-nav{
+        display: none;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        height: 102vh !important;
+
+    }
+
+    .icon{
+        display: block;
+        margin-left:1rem;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .content-div{
+        width: 100% !important;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .site-title{
+        padding-left: 1rem;
+    }
+
+
+    .top-nav-btp-box{
+        margin-right: -1rem !important;
+        
+
+       
+    }
+
+    .mobile-padding-top{
+        padding-top: 1rem;
+    }
+
+    .round-close-btn{
+        display: block !important;
+    }
+
+    #footer>div{
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+
+}
+
+
+
+
+.side-nav{
+    padding-left: 1rem;
+    background-color: #191C25;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.side-nav-logo{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.side-nav-item{
+    padding: 1rem 2rem 1rem 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
+
+.side-nav-link{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.side-nav-link:hover{
+   text-decoration: none;
+}
+
+.side-nav-link > img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.side-nav-item-text{
+    font-size: .7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #fff;
+    margin-top: -10px;
+}
+
+
+.side-nav-item-text:hover {
+    color: #b90f2e;
+    text-decoration: none !important;
+}
+
+
+.top-nav{
+    height:5rem;
+    background-color: #191C25;
+    padding: 0rem 3rem 0rem 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.top-nav> .row:nth-child(1){
+    height: 5rem;
+}
+
+.site-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #fff;
+    margin-bottom: -7px;
+    cursor: pointer;
+}
+
+
+.top-nav-btp-box{
+    /* background-color: #47474F;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius:9px;
+    text-align: center;
+    cursor: pointer; */
+
+
+    background-color: #47474F;
+    width: auto;
+    padding: 0.5rem 2rem;
+    border-radius:9px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.top-nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+
+
+.top-nav-user{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+
+.cus-card-titile-text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+
+.cus-card-titile-sub-text{
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #747474;
+}
+
+
+
+.adin-challenge-table-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-cell-title{
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #898888;
+    margin-bottom: -3px;
+}
+
+
+.table-cell-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    color: #fff;
+    margin-bottom: -3px;
+}
+
+.accept-button{
+    background-color: #00C853;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    cursor: pointer;
+    width: 70%;
+}
+
+
+.game-iframe{
+    width: 100%;
+    height: 90vh;
+    border: none;
+}
+
+
+.main-banner{
+    width: 100%;
+}
+
+
+.main-contant{
+    height: 87vh;
+    overflow-y: scroll;
+    margin-bottom: 8rem;
+}
+
+
+.login-btn{
+    background-color: #c1021e;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    cursor: pointer;
+    width: 70%;
+}
+
+
+.login-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none !important;
+    color: #00d203;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+
+
+.winner-title{
+    font-size: 2.5rem !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none !important;
+    color: #fff;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.winner-price{
+    font-size: 1.7rem !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none !important;
+    color: #00d203;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.home-btn{
+    background-color: #c1021e;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    cursor: pointer;
+    width: 40%;
+}
+
+
+
+.round-close-btn {
+    display: none;
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 30px !important;
+    height: 30px !important;
+    border: 2px solid blue;
+    color: rgb(148, 9, 44);
+    position: fixed;
+    top: 5px;
+    left: 7rem;
+    transform: scale(1.5);
+    z-index: 1000;
+  }
+  .round-close-btn:hover {
+    border: 2px solid blue;
+    background-color: yellow;
+    color: #ffffff;
+  }
+  
+  .round-close-btn::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: blue;
+    width: 2px;
+    left: 12px;
+    top: 5px;
+    bottom: 5px;
+    transform: rotate(45deg);
+  }
+  .round-close-btn::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: blue;
+    height: 2px;
+    top:12px;
+    left: 5px;
+    right: 5px;
+    transform: rotate(45deg);
+  }
+  
+
+
+    .btn-see-more{
+        background-color: #000000;
+        color: #fff;
+        border: solid 1px #fff;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-decoration: none !important;
+        cursor: pointer;
+        width: 80%;
+        height: 3rem;
+    }
+
+
+    .btn-see-more:hover{
+        background-color: #000000;
+        color: #cd072e;
+        border: solid 1px #cd072e;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-decoration: none !important;
+        cursor: pointer;
+        width: 80%;
+        height: 3rem;
+    }
+
+    .online-player-count{
+        font-size: 16px;
+        font-weight: 700;
+        /* text-transform: uppercase; */
+        letter-spacing: 1px;
+        text-decoration: none !important;
+        color: #35d300;
+        margin-bottom: -3px;
+    }
+
+    .anim-disk{
+        height: 10px;
+        width: 10px;
+        background-color: #35dd07;
+        border-radius: 50%;
+        display: inline-block;  
+        animation: anim-disk 1s linear infinite;
+        margin-top: .5rem;
+    }
+
+    @keyframes anim-disk {
+        0% {background-color: #356225;}
+        30% {background-color: #377e20;}
+        70% {background-color: #35d300;}
+        100% {background-color: #377e20;}
+    }
+
+
+    #footer{
+        /* background-color: #191C25; */
+        align-items: center;
+        width: 100%;
+        margin-left: 0rem;
+        margin-bottom: 0rem !important;
+    }
+
+
+
+    .content-div{
+        padding-left: 0.6rem;
+    }
+
+    
